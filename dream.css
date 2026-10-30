@@ -1,0 +1,73 @@
+.background {
+    background: linear-gradient(135deg, #0B0B14, #171323, #25142D);
+    width: 100%;
+    min-height: 100vh;
+}
+
+#result {
+    color: #FF5CA8;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 0 0 12px rgba(255, 92, 168, 0.4);
+}
+button{
+
+        background-color: black;
+
+        color: whitesmoke;
+
+        border-color: black;
+
+        font-size: 17px;
+
+        font-weight: bold;
+
+        border-radius: 2px;
+
+        border-color: pink;
+
+        padding: 30px;
+
+        margin-left: 300px;
+
+        margin-top: 60px;
+
+}
+button:hover{
+
+background-color: pink;
+
+transform: scale();
+
+color: black;
+
+}
+
+/*#heading{
+
+padding-left: 700px;
+
+padding-top: 90px;
+
+border-color: palevioletred;
+
+box-shadow: pink;
+
+}*/
+
+#heading {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    background: linear-gradient(90deg, #FFFFFF, #FF5CA8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+   
+    text-shadow: 0 0 20px rgba(255, 92, 168, 0.15);
+}
